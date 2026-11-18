@@ -1,0 +1,11 @@
+﻿kolom,tipe_semantik_awal,deskripsi_dan_catatan
+id,identifier,Periksa definisi pada portal asal
+kode_provinsi,kode wilayah,Kode administratif; bukan satuan ukur
+nama_provinsi,teks,Nama provinsi
+bps_kode_kabupaten_kota,kode wilayah,Kode administratif; verifikasi metadata
+bps_nama_kabupaten_kota,teks,Nama kabupaten/kota
+kategori,kategori teks,Kategori objek wisata belanja
+nama_objek_wisata,teks,Nama objek/tempat
+alamat,teks alamat,Lokasi objek; tinjau risiko pengungkapan lokasi
+titik_koordinat,teks koordinat,Pisahkan menjadi lintang/bujur setelah verifikasi format
+tahun,tahun,Tahun data sesuai isi sumber

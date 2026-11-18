@@ -1,0 +1,8 @@
+Teks robots.txt TIC Bandung yang dilaporkan pengguna:
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://ticbandung.com/sitemap.xml
+
+Catatan: aturan ini perlu dikonfirmasi ulang oleh notebook pada saat pengambilan data. `Allow: /` tidak berarti seluruh konten boleh digunakan ulang; periksa syarat penggunaan dan lisensi secara terpisah.
