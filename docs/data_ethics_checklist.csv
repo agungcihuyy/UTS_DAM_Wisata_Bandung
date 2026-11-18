@@ -1,6 +1,6 @@
 ﻿Aspek,Status (Ya/Tidak/NA),Bukti / Catatan
 Sumber data dan URL,Ya,Dataset berasal dari data.go.id: https://data.go.id/dataset/dataset/objek-wisata-belanja-di-kota-bandung. URL sumber dicantumkan untuk menjaga transparansi.
-Lisensi dan hak penggunaan data,Ya,"Status dataset ditampilkan sebagai Terbuka pada data.go.id, tetapi lisensi spesifik belum berhasil diverifikasi."
+Lisensi dan hak penggunaan data,Tidak,"Status dataset ditampilkan sebagai Terbuka pada data.go.id, tetapi lisensi spesifik belum berhasil diverifikasi."
 Ketentuan penggunaan dan robots.txt,Ya,Sumber dataset berasal dari data.go.id. Ketentuan penggunaan dan robots.txt TIC Bandung perlu diperiksa dan didokumentasikan berdasarkan hasil pemeriksaan aktual.
 Identifikasi data pribadi (PII),Ya,"Dataset berisi informasi objek wisata belanja, seperti nama objek, kategori, alamat, koordinat, dan tahun. Berdasarkan pemeriksaan dataset, tidak ditemukan data pribadi pengunjung."
 Perlindungan data pribadi,NA,"Berdasarkan pemeriksaan dataset, tidak ditemukan PII sehingga tidak ada data pribadi yang perlu disamarkan."
