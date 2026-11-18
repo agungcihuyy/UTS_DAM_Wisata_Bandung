@@ -1,4 +1,3 @@
-README_CONTENT = """
 # UTS Data Acquisition and Management
 ## Analisis Objek Wisata Belanja di Kota Bandung
 
@@ -6,12 +5,11 @@ README_CONTENT = """
 
 | Keterangan | Identitas |
 |---|---|
-| Nama | [Isi nama lengkap] |
-| NIM | [Isi NIM] |
+| Nama | I Gusti Lanang Agung Wahyu Pandu Rangga |
+| NIM | 2501010026 |
 | Program Studi | Informatika |
 | Perguruan Tinggi | INSTIKI |
 | Kelas | E |
-| Email | agungpadnu36@instiki.ac.id |
 | Mata Kuliah | Data Acquisition and Management |
 | Tugas | Ujian Tengah Semester (UTS) |
 
@@ -70,6 +68,7 @@ UTS_DAM_Bandung/
 │   ├── provenance.csv
 │   ├── data_ethics_checklist.csv
 │   └── evidence/
+│      └──tic_robots_check.json
 │
 ├── notebooks/
 │   └── UTS_DAM_Bandung.ipynb
