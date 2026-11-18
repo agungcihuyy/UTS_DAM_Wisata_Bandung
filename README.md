@@ -1,29 +1,79 @@
-# UTS DAM — Pariwisata / Objek Wisata Belanja Kota Bandung
+README_CONTENT = """
+# UTS Data Acquisition and Management
+## Analisis Objek Wisata Belanja di Kota Bandung
 
-Paket ini disusun mengikuti PDF UTS DAM Kelas E (Soal 1–5).
+### 1. Data Diri
 
-## Isi folder
-- `data/raw/`: sumber mentah yang tidak diubah. Saat paket dibuat sudah berisi CSV Bandung asli.
-- `data/processed/`: hasil normalisasi, CSV API, hasil scraping, dan hasil merge setelah notebook dijalankan.
-- `notebooks/UTS_DAM_Bandung.ipynb`: satu notebook utama untuk semua soal.
-- `docs/`: data dictionary, checklist etika, provenance, catatan robots, dan perbandingan dengan notebook contoh.
-- `outputs/`: tempat keluaran tambahan.
+| Keterangan | Identitas |
+|---|---|
+| Nama | [Isi nama lengkap] |
+| NIM | [Isi NIM] |
+| Program Studi | Informatika |
+| Perguruan Tinggi | INSTIKI |
+| Kelas | E |
+| Email | agungpadnu36@instiki.ac.id |
+| Mata Kuliah | Data Acquisition and Management |
+| Tugas | Ujian Tengah Semester (UTS) |
 
-## Dataset yang sudah tersedia
-- Baris x kolom: 326 x 10
-- Ukuran: 43370 byte
-- MD5: `86fd1df3bf4f81c89d288857c7e41337`
-- File raw disalin apa adanya.
-- **PENTING:** URL portal asal dan lisensi belum diverifikasi. PDF mensyaratkan dataset terbuka dari BPS, Satu Data Bali, data.go.id, atau Kaggle dan minimal 100 baris. Pastikan sumber file ini memenuhi ketentuan tersebut.
+### 2. Deskripsi Proyek
 
-## Cara menjalankan
-1. Upload/ekstrak folder `UTS_DAM_Bandung` ke `MyDrive` Google Drive.
-2. Buka `notebooks/UTS_DAM_Bandung.ipynb` dengan Google Colab.
-3. Jalankan semua sel dari atas ke bawah.
-4. Ganti `EMAIL_KAMPUS` dengan email kampus.
-5. Periksa URL dan lisensi dataset utama; jangan biarkan placeholder pada provenance.
-6. Periksa bahwa `Shopping & Fashion` benar-benar terambil dari halaman TIC dan merge sukses. Jika tidak, jangan mengarang relasi.
-7. Pastikan `data/raw` berisi CSV, JSON API, HTML TIC, dan robots TIC setelah notebook selesai.
-8. Pastikan hasil `data/processed/data_gabungan.csv`, checklist, provenance, dan bukti robots tersedia.
+Proyek ini dibuat untuk memenuhi tugas Ujian Tengah Semester
+mata kuliah Data Acquisition and Management.
 
-**Paket ini belum merupakan tugas final yang seluruhnya selesai:** data API/TIC baru diperoleh saat notebook dijalankan. Tidak ada data mentah API/scraping yang dibuat-buat.
+Proyek berfokus pada proses pengumpulan, pengolahan, pemeriksaan,
+dan penggabungan data pada sektor pariwisata, khususnya objek
+wisata belanja di Kota Bandung.
+
+Pengumpulan data dilakukan melalui tiga metode:
+1. Mengunduh dataset dari portal data terbuka.
+2. Mengambil data melalui API Open-Meteo.
+3. Melakukan web scraping pada situs TIC Bandung dengan
+   memperhatikan ketentuan robots.txt.
+
+### 3. Sumber Data
+
+**A. Dataset utama**
+
+- Nama: Objek Wisata Belanja di Kota Bandung
+- Sumber: data.go.id
+- URL: https://data.go.id/dataset/dataset/objek-wisata-belanja-di-kota-bandung
+
+**B. API**
+
+- Nama: Open-Meteo API
+- URL: https://api.open-meteo.com/v1/forecast
+- Data: Informasi cuaca berdasarkan waktu dan lokasi Bandung.
+
+**C. Web Scraping**
+
+- Nama situs: TIC Bandung
+- URL: https://www.ticbandung.com/kategori
+- Data: Informasi kategori atau daftar terkait pariwisata.
+
+### 4. Struktur Folder
+
+```text
+UTS_DAM_Bandung/
+│
+├── data/
+│   ├── raw/
+│   │   ├── dataset_bandung.csv
+│   │   ├── openmeteo_raw.json
+│   │   └── ticbandung_raw.html
+│   │
+│   └── processed/
+│       ├── openmeteo_weather.csv
+│       ├── ticbandung_listing.csv
+│       └── hasil_merge.csv
+│
+├── docs/
+│   ├── provenance.csv
+│   ├── data_ethics_checklist.csv
+│   └── evidence/
+│
+├── notebooks/
+│   └── UTS_DAM_Bandung.ipynb
+│
+├── README.md
+└── outputs/
+    └── metadata_merge.json
