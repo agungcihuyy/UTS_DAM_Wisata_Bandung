@@ -1,9 +1,9 @@
 {
-  "checked_at_local": "2026-11-18T10:58:48.504107+00:00",
+  "checked_at_local": "2026-11-19T03:26:43.060920+00:00",
   "robots_url": "https://www.ticbandung.com/robots.txt",
   "robots_status": 200,
   "target_url": "https://www.ticbandung.com/kategori",
-  "user_agent": "UTS-DAM-Informatika (INSTIKI-BIFP243-Praktikum/1.0 (agungpadnu36@instiki.ac.id))",
+  "user_agent": "UTS-DAM-Informatika (INSTIKI-BIFP243-Praktikum/1.0 (agungpandu36@instiki.ac.id))",
   "can_fetch": true,
   "robots_text": "User-Agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://ticbandung.com/sitemap.xml\n"
 }

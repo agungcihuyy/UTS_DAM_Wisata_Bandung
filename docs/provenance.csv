@@ -1,5 +1,5 @@
 ﻿sumber,file,url,tanggal_akses,lisensi_ketentuan,ukuran_byte,algoritma_hash,md5
-Dataset terbuka Bandung,objek_wisata_belanja_di_kota_bandung_2.csv,ISI_URL_PORTAL_ASAL,2026-11-18T10:58:53.555220+00:00,ISI_LISENSI_TERVERIFIKASI,43370,MD5,86fd1df3bf4f81c89d288857c7e41337
-API Open-Meteo,openmeteo_raw.json,https://api.open-meteo.com/v1/forecast,2026-11-18T10:58:53.561178+00:00,Periksa lisensi/ketentuan resmi Open-Meteo,7334,MD5,8d01fd3db8adfdb39955b71bdd89dbdc
-Scraping TIC Bandung HTML,tic_bandung_raw.html,https://www.ticbandung.com/kategori,2026-11-18T10:58:53.564003+00:00,Periksa syarat penggunaan TIC; robots.txt bukan lisensi,95413,MD5,ff71ed2956c9d92820e79a547f953e72
-Robots TIC Bandung,tic_bandung_robots.txt,https://www.ticbandung.com/robots.txt,2026-11-18T10:58:53.566335+00:00,Aturan crawler; bukan lisensi konten,84,MD5,cbb935bb0a6fa8d0738b201d8b7f4ba1
+Dataset terbuka Bandung,objek_wisata_belanja_di_kota_bandung_2.csv,https://data.go.id/dataset/dataset/objek-wisata-belanja-di-kota-bandung,2026-11-19T03:26:47.551046+00:00,Tidak ada lisensi,43370,MD5,86fd1df3bf4f81c89d288857c7e41337
+API Open-Meteo,openmeteo_raw.json,https://api.open-meteo.com/v1/forecast,2026-11-19T03:26:47.554436+00:00,Periksa lisensi/ketentuan resmi Open-Meteo,7336,MD5,e787349ed66089a2b172c9834f80ab2e
+Scraping TIC Bandung HTML,tic_bandung_raw.html,https://www.ticbandung.com/kategori,2026-11-19T03:26:47.555687+00:00,Periksa syarat penggunaan TIC; robots.txt bukan lisensi,95413,MD5,ff71ed2956c9d92820e79a547f953e72
+Robots TIC Bandung,tic_bandung_robots.txt,https://www.ticbandung.com/robots.txt,2026-11-19T03:26:47.557134+00:00,Aturan crawler; bukan lisensi konten,84,MD5,cbb935bb0a6fa8d0738b201d8b7f4ba1
