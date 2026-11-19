@@ -51,28 +51,33 @@ Pengumpulan data dilakukan melalui tiga metode:
 ### 4. Struktur Folder
 
 ```text
-UTS_DAM_Bandung/
+UTS_DAM_Wisata_Bandung/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── dataset_bandung.csv
+│   │   ├── objek_wisata_belanja_di_kota_bandung_2.csv
 │   │   ├── openmeteo_raw.json
-│   │   └── ticbandung_raw.html
+│   │   ├── tic_bandung_raw.html
+│   │   └── tic_bandung_robots.txt
 │   │
 │   └── processed/
+│       ├── data_gabungan.csv
+│       ├── hasil_merge.csv
 │       ├── openmeteo_weather.csv
-│       ├── ticbandung_listing.csv
-│       └── hasil_merge.csv
+│       └── tic_bandung_listing.csv
 │
 ├── docs/
-│   ├── provenance.csv
+│   ├── evidence/
+│   │   └── tic_robots_check.json
+│   ├── data_dictionary.csv
 │   ├── data_ethics_checklist.csv
-│   └── evidence/
-│      └──tic_robots_check.json
+│   ├── provenance.csv
+│   └── robots_rules_reported_by_user.txt
 │
 ├── notebooks/
 │   └── UTS_DAM_Bandung.ipynb
 │
-├── README.md
-└── outputs/
-    └── metadata_merge.json
+├── outputs/
+│   └── metadata_merge.json
+│
+└── README.md
